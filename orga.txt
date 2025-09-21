@@ -1,0 +1,40 @@
+enumeration couleur
+    couleur associé à un code de couleur et un caractère ascii
+
+Class Pion
+    couleur
+    int position
+
+
+Class Combinaison de Pion
+    final Parametre_de_jeu
+    tableau de Pion
+    constructeur classique (utilisateur)
+
+Class Combi_secrete extend Combinaison de Pion
+    constructeur aleatoir
+
+Class resultat tentative
+    Plateau de jeu 
+
+    toString()
+
+Class Plateau de jeu
+    final Parametre_de_jeu
+    Combi_secrete Secret
+    Array<Combinaison> tentative
+    int tentative_courante
+
+    nouvelle Combinaison()
+    Affiche_Plateau()
+
+Class Parametre_de_jeu
+    int nb_tentatives
+    int nb_pion
+    int nb_couleur
+    boolean multijoueur
+    -> plusieurs constructeurs pour choisir la difficulté
+
+Class Main
+    Main()
+    
