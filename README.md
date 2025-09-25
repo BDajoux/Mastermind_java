@@ -3,4 +3,4 @@ c'est un petit mastermind en mode texte dans la console,
 pour le lancer:
 
   -placez-vous dans Mastermind_java/src
-  -lancez javac 
+  -éxecuter "javac mastermind/game/Main.java" puis "java mastermind.game.Main"
